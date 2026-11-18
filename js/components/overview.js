@@ -23,7 +23,7 @@ export function renderOverview() {
         h('h1', { class: 'ohero__title' }, c.title),
         h('p', { class: 'ohero__tagline' }, c.tagline),
         h('p', { class: 'ohero__lead' }, c.intro),
-        h('ul', { class: 'ohero__facts', 'aria-label': 'Co tě čeká' }, c.facts.map((f) => h('li', {}, f))),
+        h('ul', { class: 'ohero__facts', 'aria-label': 'Co vás čeká' }, c.facts.map((f) => h('li', {}, f))),
         h('p', { class: 'ohero__cta' },
           last ? h('a', { class: 'btn btn--light', href: `#/kapitola/${last.chapter}/${last.anchor || ''}` }, ui().continueWhereLeft)
                : first ? h('a', { class: 'btn btn--light', href: `#/kapitola/${first.id}` }, c.startLabel) : null,

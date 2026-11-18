@@ -15,7 +15,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'ÚCHOP provozuje lezeckou stěnu a zve na první lekci pro začátečníky. Příspěvek na sociálních sítích vidělo hodně lidí, rezervací je ale jen pár. Část komentářů se ptá, jestli je lekce opravdu i pro někoho, kdo nikdy nelezl.',
-        'Tým navrhuje tři cesty: přidat rozpočet, aby příspěvek vidělo ještě víc lidí, použít výraznější obrázek a víc vykřičníků, nebo ověřit, koho oslovujeme, zda nabídce rozumí a jak se dostane k rezervaci. V kapitole uvidíš, co se může ztratit mezi tím, kdy sdělení někdo vidí, a tím, kdy podle něj jedná.'
+        'Tým navrhuje tři cesty: přidat rozpočet, aby příspěvek vidělo ještě víc lidí, použít výraznější obrázek a víc vykřičníků, nebo ověřit, koho oslovujeme, zda nabídce rozumí a jak se dostane k rezervaci. V kapitole uvidíte, co se může ztratit mezi tím, kdy sdělení někdo vidí, a tím, kdy podle něj jedná.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -33,7 +33,7 @@ export default {
     // ───────────────────────────── ČÁST 1
     {
       id: 'b1',
-      title: 'Nejdřív si řekni, co chceš změnit',
+      title: 'Nejdřív si řekněte, co chcete změnit',
       short: 'Úloha komunikace, komunikační cíl, AIDA',
       time: { main: 2 },
       steps: [
@@ -82,7 +82,7 @@ export default {
           ]
         }
       ],
-      summary: 'Začni cílovou skupinou a změnou, které chceš dosáhnout. AIDA pomáhá promyslet funkce sdělení.'
+      summary: 'Začněte cílovou skupinou a změnou, které chcete dosáhnout. AIDA pomáhá promyslet funkce sdělení.'
     },
 
     // ───────────────────────────── ČÁST 2
@@ -274,7 +274,7 @@ export default {
           ]
         }
       ],
-      summary: 'Vyhodnocuj to, co odpovídá cíli, a ověřuj příčiny výsledku. Srozumitelný slib musí odpovídat skutečným podmínkám.'
+      summary: 'Vyhodnocujte to, co odpovídá cíli, a ověřujte příčiny výsledku. Srozumitelný slib musí odpovídat skutečným podmínkám.'
     }
   ],
 
@@ -292,7 +292,7 @@ export default {
 
   // Závěrečné procvičení
   final: {
-    intro: 'Nové krátké situace z ÚCHOPU ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace z ÚCHOPU ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m09-z-cil', 'm09-z-aida', 'm09-z-proces', 'm09-z-nastroje', 'm09-z-integrace', 'm09-z-zobrazeni'],
     areas: [
       { id: 'cil', label: 'Cíl a sdělení', anchor: 'b1' },

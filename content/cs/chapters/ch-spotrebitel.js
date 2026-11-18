@@ -14,7 +14,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'Alex začal běhat a chce si v KROKU koupit první běžecké boty. Na webu porovnává parametry, kamarád mu doporučuje svou oblíbenou značku a jedna nabídka právě končí ve slevě.',
-        'Alex má otevřených dvanáct záložek a jasno pořád nemá. Bojí se, že vybere špatně, a zároveň nechce propásnout slevu. V kapitole uvidíš, co jeho rozhodování ovlivňuje, jakými kroky prochází a co se děje ještě dlouho po zaplacení.'
+        'Alex má otevřených dvanáct záložek a jasno pořád nemá. Bojí se, že vybere špatně, a zároveň nechce propásnout slevu. V kapitole uvidíte, co jeho rozhodování ovlivňuje, jakými kroky prochází a co se děje ještě dlouho po zaplacení.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -65,7 +65,7 @@ export default {
           id: 's1-people',
           title: 'Marketingový mix: páté P',
           body: [
-            { t: 'p', html: 'Ze čtyř P [[marketingovy_mix|marketingového mixu]] už znáš produkt, cenu, distribuci a komunikaci. Pohled na spotřebitele ukazuje, jak moc o výsledku rozhodují lidé. Mix se proto rozšiřuje o páté P.' },
+            { t: 'p', html: 'Ze čtyř P [[marketingovy_mix|marketingového mixu]] už znáte produkt, cenu, distribuci a komunikaci. Pohled na spotřebitele ukazuje, jak moc o výsledku rozhodují lidé. Mix se proto rozšiřuje o páté P.' },
             { t: 'cards', items: [
               { kicker: '5. P', term: 'people', id: 'k-people', title: 'People (lidé)', text: 'Rozšíření marketingového mixu o lidi, kteří se podílejí na poskytování nabídky a na kontaktu se zákazníkem: zaměstnance, partnery i samotné zákazníky.' }
             ] },
@@ -88,7 +88,7 @@ export default {
           id: 's2-ppp',
           lead: true,
           body: [
-            { t: 'p', html: 'Z první kapitoly znáš tři pojmy: <dfn>[[potreba|potřeba]]</dfn> je pociťovaný nedostatek, <dfn>[[prani|přání]]</dfn> její konkrétní podoba a <dfn>[[poptavka|poptávka]]</dfn> přání podložené ochotou a schopností zaplatit.' }
+            { t: 'p', html: 'Z první kapitoly znáte tři pojmy: <dfn>[[potreba|potřeba]]</dfn> je pociťovaný nedostatek, <dfn>[[prani|přání]]</dfn> její konkrétní podoba a <dfn>[[poptavka|poptávka]]</dfn> přání podložené ochotou a schopností zaplatit.' }
           ],
           tasks: ['m10-ppp']
         },
@@ -303,7 +303,7 @@ export default {
   },
 
   final: {
-    intro: 'Nové krátké situace z KROKU ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace z KROKU ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m10-z-rozsah', 'm10-z-platce', 'm10-z-hodnota', 'm10-z-vlivy', 'm10-z-hodnoceni', 'm10-z-ponakup', 'm10-z-heuristika'],
     areas: [
       { id: 'rozsah', label: 'Rozsah spotřebního chování', anchor: 'b1' },

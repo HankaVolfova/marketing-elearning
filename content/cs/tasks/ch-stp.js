@@ -28,7 +28,7 @@ export default {
       styl: { text: '„Aktivní životní styl je pro ně důležitou součástí identity.“', why: 'Životní styl a hodnoty: psychografické kritérium.' },
       cetnost: { text: '„Objednávají oběd třikrát týdně.“', why: 'Četnost nákupů popisuje chování vůči nabídce: behaviorální kritérium.' }
     },
-    explanation: 'Ptej se: <strong>kde</strong> žijí (geografická), <strong>kdo</strong> jsou (demografická), <strong>jak žijí a co je pro ně důležité</strong> (psychografická), <strong>jak se chovají k nabídce</strong> (behaviorální).'
+    explanation: 'Ptejte se: <strong>kde</strong> žijí (geografická), <strong>kdo</strong> jsou (demografická), <strong>jak žijí a co je pro ně důležité</strong> (psychografická), <strong>jak se chovají k nabídce</strong> (behaviorální).'
   },
 
   'm04-vek': {
@@ -44,7 +44,7 @@ export default {
     prompt: 'Krabička vytvoří dvě skupiny: „lidé, kteří chtějí chutný oběd“ a „lidé, kteří mají rádi dobré jídlo“. Pomůže jí toto rozdělení připravit odlišné nabídky?',
     options: { ano: 'Ano', ne: 'Ne' },
     correctLead: 'Přesně.',
-    wrongLead: 'Zkus najít, v čem se ty dvě skupiny liší.',
+    wrongLead: 'Zkuste najít, v čem se ty dvě skupiny liší.',
     explanation: '<strong>Ne.</strong> Skupiny se významově překrývají. Není jasné, v čem se jejich potřeby liší a jak podle toho nabídku upravit.'
   },
 
@@ -65,7 +65,7 @@ export default {
 
   // ───── Část 3
   'm04-seg-target': {
-    prompt: 'Segmentace, nebo targeting? Zařaď rozhodnutí Krabičky.',
+    prompt: 'Segmentace, nebo targeting? Zařaďte rozhodnutí Krabičky.',
     categories: { segmentace: 'Segmentace', targeting: 'Targeting' },
     items: {
       rozlisili: { text: '„Rozlišili jsme zákazníky podle potřeb a situací, ve kterých objednávají.“', why: 'Hledání a popis skupin: segmentace.' },
@@ -154,7 +154,7 @@ export default {
   },
 
   'm04-4c': {
-    prompt: 'Vyber všechna správná tvrzení o Krabičce z pohledu 4C.',
+    prompt: 'Vyberte všechna správná tvrzení o Krabičce z pohledu 4C.',
     options: {
       jencena: '„Zákazníkovým nákladem je pouze cena oběda včetně rozvozu.“',
       cas: '„Do nákladů může patřit čas a úsilí potřebné k objednání.“',
@@ -220,7 +220,7 @@ export default {
     explanation: 'Výběr skupiny, které se firma bude věnovat, je targeting.'
   },
   'm04-z-positioning': {
-    prompt: '„Krabička chce být vnímána jako pohodlné řešení oběda. Zákazníci ji ale spojují hlavně s komplikovaným objednáváním.“ Jak situaci vyhodnotíš?',
+    prompt: '„Krabička chce být vnímána jako pohodlné řešení oběda. Zákazníci ji ale spojují hlavně s komplikovaným objednáváním.“ Jak situaci vyhodnotíte?',
     options: {
       shoda: 'Pozice je dosažená, protože ji firma zvolila.',
       rozpor: 'Zamýšlená pozice a skutečné vnímání se rozcházejí.',

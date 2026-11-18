@@ -15,7 +15,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'DOUŠEK připravuje termolahev pro lidi, kteří denně dojíždějí do práce nebo do školy. Lahev drží teplotu, je z kvalitní oceli a má rozumnou cenu. Před uvedením na trh se řeší, čím zákazníky přesvědčit.',
-        'Na poradě zazní tři návrhy: přidat další barevné varianty, rozšířit lahev o další funkce a doplňky, nebo nejdřív ujasnit, jaký užitek lidé při dojíždění potřebují. V kapitole uvidíš, co všechno zákazník kupuje, když kupuje „jen“ lahev.'
+        'Na poradě zazní tři návrhy: přidat další barevné varianty, rozšířit lahev o další funkce a doplňky, nebo nejdřív ujasnit, jaký užitek lidé při dojíždění potřebují. V kapitole uvidíte, co všechno zákazník kupuje, když kupuje „jen“ lahev.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -295,7 +295,7 @@ export default {
 
   // Závěrečné procvičení
   final: {
-    intro: 'Nové krátké situace ze světa DOUŠKU ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace ze světa DOUŠKU ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m05-z-dimenze', 'm05-z-obal', 'm05-z-sortiment', 'm05-z-invence', 'm05-z-cyklus'],
     areas: [
       { id: 'dimenze', label: 'Dimenze produktu', anchor: 'b1' },

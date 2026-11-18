@@ -14,7 +14,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'Univerzitní sportovní centrum nabízí studentům skupinové lekce jógy, pilates a kruhového tréninku. Sály jsou vybavené a lektoři oblíbení, přesto na řadě lekcí zůstává polovina míst prázdná. Vedení se ptá, co s tím.',
-        'Na poradě zazní tři návrhy: „Zlevníme všechny vstupy.“ „Spustíme kampaň na sociálních sítích.“ „Nejdřív si ujasníme, koho chceme získat a jaký výsledek potřebujeme.“ Každý z nich zní rozumně. V kapitole uvidíš, proč na pořadí kroků záleží a co by mělo být jasné dřív, než se cokoli spustí.'
+        'Na poradě zazní tři návrhy: „Zlevníme všechny vstupy.“ „Spustíme kampaň na sociálních sítích.“ „Nejdřív si ujasníme, koho chceme získat a jaký výsledek potřebujeme.“ Každý z nich zní rozumně. V kapitole uvidíte, proč na pořadí kroků záleží a co by mělo být jasné dřív, než se cokoli spustí.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -112,7 +112,7 @@ export default {
         },
         {
           id: 's2-pouzitelny',
-          title: 'Vyber použitelný cíl',
+          title: 'Vyberte použitelný cíl',
           body: [
             { t: 'mock', kind: 'brief', title: 'Podklad sportovního centra', text: 'Centrum chce lépe využít stávající večerní lekce. Má volnou kapacitu, prostředky na oslovení studentů a podle předchozího zkušebního období považuje obsazenost 65 % za dosažitelnou.' }
           ],
@@ -124,7 +124,7 @@ export default {
           ]
         }
       ],
-      summary: 'Cíl popisuje výsledek, aktivita cestu k jeho naplnění. U dobrého cíle poznáš, co se má změnit, o kolik a dokdy.'
+      summary: 'Cíl popisuje výsledek, aktivita cestu k jeho naplnění. U dobrého cíle poznáte, co se má změnit, o kolik a dokdy.'
     },
 
     // ───────────────────────────── ČÁST 3
@@ -212,7 +212,7 @@ export default {
         },
         {
           id: 's4-limity',
-          title: 'Co z matice nepoznáš?',
+          title: 'Co z matice nepoznáte?',
           body: [],
           tasks: ['m02-matice-limity'],
           more: [
@@ -222,7 +222,7 @@ export default {
           ]
         }
       ],
-      summary: 'U růstové strategie sleduj dvě osy: produkt a trh. Zařazení nápadu do matice pomáhá přemýšlet o růstu, ale nenahrazuje posouzení jeho proveditelnosti.'
+      summary: 'U růstové strategie sledujte dvě osy: produkt a trh. Zařazení nápadu do matice pomáhá přemýšlet o růstu, ale nenahrazuje posouzení jeho proveditelnosti.'
     },
 
     // ───────────────────────────── ČÁST 5
@@ -294,7 +294,7 @@ export default {
 
   // Závěrečné procvičení
   final: {
-    intro: 'Nové krátké situace ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m02-z-mise', 'm02-z-smart', 'm02-z-konkurence', 'm02-z-ansoff', 'm02-z-plan'],
     areas: [
       { id: 'smer', label: 'Směřování organizace a mise/vize', anchor: 'b1' },

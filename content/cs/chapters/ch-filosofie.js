@@ -7,7 +7,7 @@ export default {
   id: 'ch-filosofie',
   title: 'Vývoj a filosofie marketingu',
   headline: 'Dobrý produkt. A proč ho nikdo nekupuje?',
-  question: 'Jak poznáš firmu, která přemýšlí marketingově?',
+  question: 'Jak poznáte firmu, která přemýšlí marketingově?',
   mascotLine: 'Mám sedm kapes. Ale víme, kdo mě potřebuje?',
 
   intro: {
@@ -19,7 +19,7 @@ export default {
       company: 'Ranec',
       body: [
         'Firma Ranec vyrábí batohy. Její nový model Dojížďák je kvalitně ušitý, má pevné zipy a slušnou cenu. Přesto se prodává mnohem hůř, než vedení čekalo.',
-        'Na poradě padnou čtyři návrhy, čím začít: snížit výrobní náklady, přidat další technické parametry, posílit prodejní tlak, nebo zjistit, co zákazníci při používání batohu skutečně potřebují. V kapitole uvidíš, jaký způsob myšlení stojí za každým z nich.'
+        'Na poradě padnou čtyři návrhy, čím začít: snížit výrobní náklady, přidat další technické parametry, posílit prodejní tlak, nebo zjistit, co zákazníci při používání batohu skutečně potřebují. V kapitole uvidíte, jaký způsob myšlení stojí za každým z nich.'
       ]
     },
     // Výstupy učení se v e-learningu nezobrazují (rozhodnutí vyučující 13. 11. 2026); ponechány jako podklad pro skripta.
@@ -213,7 +213,7 @@ export default {
               { kicker: 'Začíná u produktu', term: 'prodejni_koncepce', id: 'k-prodejni', title: 'Prodejní koncepce', text: 'Předpoklad: zákazník sám nekoupí dost, musí být přesvědčen. Firma tlačí existující nabídku reklamou, akcemi a prodejními technikami.', example: 'Riziko: jednorázový prodej bez spokojenosti a vztahu.' },
               { kicker: 'Začíná u zákazníka', term: 'marketingova_koncepce', id: 'k-marketingova', title: 'Marketingová koncepce', text: 'Předpoklad: uspěje, kdo lépe než konkurence vytvoří hodnotu pro vybrané zákazníky. Firma zkoumá jejich potřeby, i nevyslovené, a podle nich ladí celou nabídku.', example: 'Omezení: náročnost na informace; kritika za opomíjení dopadů na společnost.' }
             ] },
-            { t: 'p', html: 'Reklamu používají obě. Proto koncepci nepoznáš z jediné kampaně, ale z toho, <strong>odkud firma vychází</strong>.' }
+            { t: 'p', html: 'Reklamu používají obě. Proto koncepci nepoznáte z jediné kampaně, ale z toho, <strong>odkud firma vychází</strong>.' }
           ],
           tasks: ['b4-pm', 'b4-kampan'],
           more: [
@@ -230,7 +230,7 @@ export default {
           ],
           tasks: ['b4-dar'],
           more: [
-            { t: 'p', html: 'Nepleť si ji se [[socialni_marketing|sociálním marketingem]]. Ten používá marketingové postupy ke změně chování lidí pro společenský prospěch, třeba v kampani za bezpečnou jízdu. Na společensky odpovědnou koncepci navazuje [[csr|společenská odpovědnost firem (CSR)]].' }
+            { t: 'p', html: 'Nepleťte si ji se [[socialni_marketing|sociálním marketingem]]. Ten používá marketingové postupy ke změně chování lidí pro společenský prospěch, třeba v kampani za bezpečnou jízdu. Na společensky odpovědnou koncepci navazuje [[csr|společenská odpovědnost firem (CSR)]].' }
           ]
         },
         {
@@ -309,7 +309,7 @@ export default {
 
   // Závěrečné procvičení
   final: {
-    intro: 'Úlohy pokrývají všechny hlavní cíle kapitoly. Vyhodnocené úlohy uvidíš ve výsledcích podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Úlohy pokrývají všechny hlavní cíle kapitoly. Vyhodnocené úlohy uvidíte ve výsledcích podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['z-rozsah-1', 'z-rozsah-2', 'z-ppp', 'z-hodnota', 'z-trhy-1', 'z-trhy-2', 'z-vv-1', 'z-vv-2', 'z-pm-1', 'z-pm-2', 'z-odpov'],
     areas: [
       { id: 'rozsah', label: 'Rozsah marketingu', anchor: 'b1' },

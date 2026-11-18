@@ -12,7 +12,7 @@ export default {
   },
 
   'm02-mise-vize': {
-    prompt: 'Mise, nebo vize? Zařaď výroky sportovního centra.',
+    prompt: 'Mise, nebo vize? Zařaďte výroky sportovního centra.',
     categories: { mise: 'Mise', vize: 'Vize' },
     items: {
       zivot: { text: '„Umožňujeme studentům pravidelný pohyb díky dostupným lekcím přímo v kampusu.“', why: 'Popisuje, proč centrum existuje a jaký přínos dnes nabízí: mise.' },
@@ -35,7 +35,7 @@ export default {
   },
 
   'm02-smart': {
-    prompt: '„Chceme zvýšit průměrnou obsazenost večerních lekcí z 50 % na 65 %.“ Co z tohoto výroku poznáš a co ještě potřebuješ doplnit nebo ověřit?',
+    prompt: '„Chceme zvýšit průměrnou obsazenost večerních lekcí z 50 % na 65 %.“ Co z tohoto výroku poznáte a co ještě potřebujete doplnit nebo ověřit?',
     options: {
       meritelny: 'Výsledek je měřitelný.',
       termin: 'Chybí termín dosažení.',
@@ -48,7 +48,7 @@ export default {
       dosazitelnost: 'Čísla ukazují měřitelnost, ne dosažitelnost. Ta závisí na kapacitě, zdrojích a zkušenostech centra.',
       relevance: 'Ano. Zda cíl dává smysl, se posuzuje vzhledem k tomu, kam centrum směřuje.'
     },
-    explanation: 'Přesné číslo dělá cíl měřitelným. Dosažitelnost a relevanci z věty samotné nepoznáš.'
+    explanation: 'Přesné číslo dělá cíl měřitelným. Dosažitelnost a relevanci z věty samotné nepoznáte.'
   },
 
   'm02-pouzitelny-cil': {
@@ -92,7 +92,7 @@ export default {
   },
 
   'm02-konkurence': {
-    prompt: 'Zařaď sportoviště ve městě. U jedné položky platí dvě odpovědi zároveň.',
+    prompt: 'Zařaďte sportoviště ve městě. U jedné položky platí dvě odpovědi zároveň.',
     categories: { naklady: 'Nákladové vůdcovství', diferenciace: 'Diferenciace', koncentrace: 'Koncentrace' },
     items: {
       uspora: { text: 'Sportoviště obsluhuje široký trh a díky úspornému provozu má nižší náklady než konkurenti.', why: 'Široký trh a nižší náklady: nákladové vůdcovství.' },
@@ -113,7 +113,7 @@ export default {
   },
 
   'm02-ansoff': {
-    prompt: 'Zařaď záměry sportovního centra do Ansoffovy matice.',
+    prompt: 'Zařaďte záměry sportovního centra do Ansoffovy matice.',
     categories: { penetrace: 'Tržní penetrace', produkt: 'Rozvoj produktu', trh: 'Rozvoj trhu', diverzifikace: 'Diverzifikace' },
     items: {
       mista: { text: 'Získat víc studentů na stávající lekce díky rozšíření večerního rozvrhu.', why: 'Stávající produkt, stávající trh: tržní penetrace.' },
@@ -121,19 +121,19 @@ export default {
       polsko: { text: 'Nabídnout stávající skupinové lekce zaměstnancům firem v okolí.', why: 'Stávající produkt, nový trh: rozvoj trhu.' },
       zachranari: { text: 'Otevřít pro seniory z města nový program zdravotního cvičení s fyzioterapeutem.', why: 'Nový produkt i nový trh: diverzifikace.' }
     },
-    explanation: 'Vždy se zeptej zvlášť: je produkt pro tuto firmu nový? Je trh pro tuto firmu nový?'
+    explanation: 'Vždy se zeptejte zvlášť: je produkt pro tuto firmu nový? Je trh pro tuto firmu nový?'
   },
 
   'm02-matice-limity': {
-    prompt: 'Když správně zařadíš nápad do matice, znamená to, že už víš, zda se firmě vyplatí?',
-    thinkHint: 'Zkus si odpověď nejdřív promyslet. Pak si zobraz vysvětlení.',
-    reasoningLabel: 'Tvoje úvaha (nepovinné, nikam se neodesílá)',
+    prompt: 'Když správně zařadíte nápad do matice, znamená to, že už víte, zda se firmě vyplatí?',
+    thinkHint: 'Zkuste si odpověď nejdřív promyslet. Pak si zobrazte vysvětlení.',
+    reasoningLabel: 'Vaše úvaha (nepovinné, nikam se neodesílá)',
     revealLabel: 'Ukázat vysvětlení',
     explanation: '<strong>Ne.</strong> Matice pojmenuje směr růstu. Firma ještě musí posoudit zákazníky, konkurenci, potřebné zdroje a rizika. Nový produkt na novém trhu obvykle přináší více neznámých.'
   },
 
   'm02-cst': {
-    prompt: 'Cíl, strategie, nebo taktika? Zařaď poznámky sportovního centra.',
+    prompt: 'Cíl, strategie, nebo taktika? Zařaďte poznámky sportovního centra.',
     categories: { cil: 'Cíl', strategie: 'Strategie', taktika: 'Taktika' },
     items: {
       navstevy: { text: '„Do konce semestru zvýšit průměrnou obsazenost večerních lekcí z 50 % na 65 %.“', why: 'Požadovaný výsledek s měřítkem a termínem: cíl.' },
@@ -156,7 +156,7 @@ export default {
       kdo: 'Ano. Bez odpovědné osoby se úkol snadno ztratí mezi ostatními.',
       kdy: 'Ano. Termín umožňuje připravit navazující kroky a později vyhodnotit výsledek.',
       zdroje: 'Ano. Rozpočet, lektoři a volný sál určují, co je reálně proveditelné.',
-      vyhodnoceni: 'Ano. Bez kontroly nepoznáš, jestli lekce přispěla k cíli.',
+      vyhodnoceni: 'Ano. Bez kontroly nepoznáte, jestli lekce přispěla k cíli.',
       slogan: 'Název může pomoci komunikaci, ale nenahradí odpovědnost, termín, zdroje ani kontrolu.'
     },
     explanation: 'Plán odpovídá na otázky kdo, co, kdy, s jakými zdroji a jak se pozná výsledek.'
@@ -172,7 +172,7 @@ export default {
     feedback: {
       'beze-zmeny': 'Plán není dogma. Kontrola existuje právě proto, aby se dal upravit.',
       porovnat: 'Ano. Kontrola pomáhá zjistit odchylku a její příčiny. Úprava má vycházet ze zjištění.',
-      snizit: 'Zrušení může být nakonec správné, ale bez zjištění příčin nevíš, zda lekce selhala kvůli obsahu, času, nebo informovanosti.'
+      snizit: 'Zrušení může být nakonec správné, ale bez zjištění příčin nevíte, zda lekce selhala kvůli obsahu, času, nebo informovanosti.'
     },
     explanation: 'Kontrola porovná výsledek s cílem, hledá příčiny a dává podklad pro úpravy.'
   },
@@ -189,10 +189,10 @@ export default {
     explanation: 'Mise = proč existujeme teď, vize = kam směřujeme.'
   },
   'm02-z-smart': {
-    prompt: '„Do konce června zvýšit podíl včas vyřízených objednávek z 85 % na 95 %.“ Co bez znalosti možností organizace ještě nedokážeš potvrdit?',
+    prompt: '„Do konce června zvýšit podíl včas vyřízených objednávek z 85 % na 95 %.“ Co bez znalosti možností organizace ještě nedokážete potvrdit?',
     options: { meritelnost: 'Měřitelnost', termin: 'Časové ohraničení', dosazitelnost: 'Dosažitelnost' },
     feedback: {
-      meritelnost: 'Měřitelnost potvrdit můžeš: podíl v procentech se dá změřit.',
+      meritelnost: 'Měřitelnost potvrdit můžete: podíl v procentech se dá změřit.',
       termin: 'Termín je uvedený: do konce června.',
       dosazitelnost: 'Ano. Přesné číslo samo o sobě dosažitelnost nedokazuje. Záleží na kapacitách a možnostech organizace.'
     },

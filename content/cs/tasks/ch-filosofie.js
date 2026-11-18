@@ -81,7 +81,7 @@ export default {
   },
 
   'b1-k2-cil': {
-    prompt: 'Dojížďák má jako jediný batoh na trhu kapsu na jízdenku, ke které se dostaneš bez sundání batohu. Který cíl marketingu tím Ranec sleduje nejvíc?',
+    prompt: 'Dojížďák má jako jediný batoh na trhu kapsu na jízdenku, ke které se zákazník dostane bez sundání batohu. Který cíl marketingu tím Ranec sleduje nejvíc?',
     options: { potreby: 'Uspokojit potřeby zákazníků', zisk: 'Vytvořit přiměřený zisk', vyhoda: 'Získat konkurenční výhodu', vztah: 'Budovat dlouhodobý vztah' },
     feedback: {
       potreby: 'Kapsa potřebu zákazníků opravdu řeší. Klíčové je ale slovo „jako jediný“: vlastnost, kterou nikdo jiný nemá, je důvodem vybrat si právě Ranec.',
@@ -131,7 +131,7 @@ export default {
   },
 
   'b3-trhy': {
-    prompt: 'Kdo komu nabízí? Zařaď každou situaci.',
+    prompt: 'Kdo komu nabízí? Zařaďte každou situaci.',
     categories: { b2c: 'B2C', b2b: 'B2B', c2c: 'C2C', c2b: 'C2B' },
     items: {
       jednotlivec: { text: 'Ranec prodá batoh studentce pro její osobní použití.', why: 'Firma prodává spotřebitelce: B2C.' },
@@ -156,7 +156,7 @@ export default {
   },
 
   'b4-vv': {
-    prompt: 'Výrobní, nebo výrobková? Zařaď rozhodnutí Rance.',
+    prompt: 'Výrobní, nebo výrobková? Zařaďte rozhodnutí Rance.',
     categories: { vyrobni: 'Výrobní', vyrobkova: 'Výrobková' },
     items: {
       hala: { text: 'Omezí nabídku na jeden model a dostane ho do všech supermarketů za 699 Kč.', why: 'Nízká cena a široká dostupnost: výrobní.' },
@@ -184,7 +184,7 @@ export default {
     options: { prodejni: 'Prodejní', marketingova: 'Marketingová', nelze: 'Z toho to nepoznám' },
     correctLead: 'Přesně tak.',
     wrongLead: 'Kampaň používají obě koncepce.',
-    explanation: 'Z jediné kampaně koncepci nepoznáš. Rozhoduje, z čeho kampaň vychází: z hotového produktu, který je potřeba prodat, nebo ze zjištěných potřeb zákazníků.'
+    explanation: 'Z jediné kampaně koncepci nepoznáte. Rozhoduje, z čeho kampaň vychází: z hotového produktu, který je potřeba prodat, nebo ze zjištěných potřeb zákazníků.'
   },
 
   'b4-dar': {
@@ -210,7 +210,7 @@ export default {
 
 
   'b5-dilema': {
-    prompt: 'Ranec chystá novou verzi Dojížďáku a vybírá ze tří variant. Kterou bys doporučil/a? Pak se podívej, jak varianta dopadá na zákazníka, firmu a společnost.',
+    prompt: 'Ranec chystá novou verzi Dojížďáku a vybírá ze tří variant. Kterou byste doporučili? Pak se podívejte, jak varianta dopadá na zákazníka, firmu a společnost.',
     options: {
       levnejsi: {
         label: 'Levnější materiál',
@@ -243,7 +243,7 @@ export default {
         defensible: 'Obhajitelné, pokud firma cílí na zákazníky, kteří ocení dlouhou životnost a mají na ni rozpočet.'
       }
     },
-    reasoningHint: 'Napiš, pro jaké zákazníky by tvoje volba dávala smysl a co by firma musela pohlídat.'
+    reasoningHint: 'Napište, pro jaké zákazníky by vaše volba dávala smysl a co by firma musela pohlídat.'
   },
   'b5-loajalita': {
     prompt: 'Které tvrzení o loajalitě zákazníků je nejpřesnější? (Tato úloha má jednu správnou odpověď.)',

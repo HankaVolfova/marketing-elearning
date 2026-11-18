@@ -14,7 +14,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'Kavárna Za rohem funguje už šestým rokem. Poslední měsíce do ní chodí znatelně méně lidí, a to i v časech, kdy dřív nebylo kde sedět. Majitelka musí rozhodnout, co změnit.',
-        'Od personálu a známých slyší tři vysvětlení: „Určitě jsme moc drazí.“ „Lidi přešli ke konkurenci.“ „Možná jim přestala vyhovovat nabídka nebo otevírací doba.“ Každé vede k jinému řešení, ale žádné zatím nikdo neověřil. V kapitole uvidíš, jak rozlišit dohad od zjištění a kde hledat, co kavárně chybí vědět.'
+        'Od personálu a známých slyší tři vysvětlení: „Určitě jsme moc drazí.“ „Lidi přešli ke konkurenci.“ „Možná jim přestala vyhovovat nabídka nebo otevírací doba.“ Každé vede k jinému řešení, ale žádné zatím nikdo neověřil. V kapitole uvidíte, jak rozlišit dohad od zjištění a kde hledat, co kavárně chybí vědět.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -103,7 +103,7 @@ export default {
           tasks: ['m03-dopad']
         }
       ],
-      summary: 'Prostředí sleduj podle možnosti ovlivnění a dopadu na firmu. Seznam faktorů začíná být užitečný až tehdy, když vysvětlíš jejich význam.'
+      summary: 'Prostředí sledujte podle možnosti ovlivnění a dopadu na firmu. Seznam faktorů začíná být užitečný až tehdy, když vysvětlíte jejich význam.'
     },
 
     // ───────────────────────────── ČÁST 2
@@ -147,7 +147,7 @@ export default {
           ]
         }
       ],
-      summary: 'Konkurenci posuzuj šířeji než seznamem podobných firem. Sleduj také vstup nových hráčů, alternativní řešení a vyjednávací sílu partnerů.'
+      summary: 'Konkurenci posuzujte šířeji než seznamem podobných firem. Sledujte také vstup nových hráčů, alternativní řešení a vyjednávací sílu partnerů.'
     },
 
     // ───────────────────────────── ČÁST 3
@@ -247,7 +247,7 @@ export default {
           ]
         }
       ],
-      summary: 'Nejdřív vyjasni otázku a prověř dostupná data. Nový sběr navrhuj podle toho, co skutečně potřebuješ zjistit.'
+      summary: 'Nejdřív vyjasněte otázku a prověřte dostupná data. Nový sběr navrhujte podle toho, co skutečně potřebujete zjistit.'
     },
 
     // ───────────────────────────── ČÁST 5
@@ -272,7 +272,7 @@ export default {
         },
         {
           id: 's5-metody',
-          title: 'Metodu vybírej podle otázky',
+          title: 'Metodu vybírejte podle otázky',
           body: [
             { t: 'cards', items: [
               { term: 'dotazovani', id: 'k-dotazovani', title: 'Dotazování', text: 'Získávání odpovědí na položené otázky.' },
@@ -301,7 +301,7 @@ export default {
           ]
         }
       ],
-      summary: 'Nejdřív urči, co chceš zjistit, potom přístup, metodu a výběr zkoumaných lidí. Čísla sama nezaručují kvalitní závěr.'
+      summary: 'Nejdřív určete, co chcete zjistit, potom přístup, metodu a výběr zkoumaných lidí. Čísla sama nezaručují kvalitní závěr.'
     }
   ],
 
@@ -319,7 +319,7 @@ export default {
 
   // Závěrečné procvičení
   final: {
-    intro: 'Nové krátké situace ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m03-z-prostredi', 'm03-z-substitut', 'm03-z-swot', 'm03-z-data', 'm03-z-skala', 'm03-z-pocet'],
     areas: [
       { id: 'prostredi', label: 'Mikroprostředí a makroprostředí', anchor: 'b1' },

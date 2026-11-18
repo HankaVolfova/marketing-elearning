@@ -6,7 +6,7 @@
 export default {
   id: 'ch-distribuce',
   title: 'Distribuce v marketingové strategii',
-  headline: 'Skvělá hra. Jen ji nikde nekoupíš.',
+  headline: 'Skvělá hra. Jen ji nikde nekoupíte.',
   question: 'Jak dostat nabídku k zákazníkovi způsobem, který mu vyhovuje?',
 
   intro: {
@@ -15,7 +15,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'TAH uvedl rodinnou deskovou hru Víkendovka. Recenze jsou dobré a lidé se na hru ptají, ale nákup často nedokončí. Vlastní e-shop totiž nabízí jen osobní odběr ve skladu za městem, v pracovní dny mezi 9. a 14. hodinou.',
-        'Tým zvažuje, co dělat: posílit reklamu, aby na e-shop přišlo víc lidí, vyměnit obrázek na krabici, nebo změnit to, kde a jak si hru lidé mohou koupit a převzít. V kapitole uvidíš cestu hry od výrobce až ke stolu, u kterého se bude hrát.'
+        'Tým zvažuje, co dělat: posílit reklamu, aby na e-shop přišlo víc lidí, vyměnit obrázek na krabici, nebo změnit to, kde a jak si hru lidé mohou koupit a převzít. V kapitole uvidíte cestu hry od výrobce až ke stolu, u kterého se bude hrát.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -258,7 +258,7 @@ export default {
 
   // Závěrečné procvičení
   final: {
-    intro: 'Nové krátké situace z TAHU ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace z TAHU ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m08-z-dostupnost', 'm08-z-cesta', 'm08-z-dopravce', 'm08-z-role', 'm08-z-intenzita', 'm08-z-kanaly'],
     areas: [
       { id: 'dostupnost', label: 'Dostupnost', anchor: 'b1' },

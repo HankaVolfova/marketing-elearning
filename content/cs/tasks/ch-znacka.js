@@ -13,7 +13,7 @@ export default {
   },
 
   'm06-prinosy': {
-    prompt: 'Vyber hlavní přínos popsaný ve výroku.',
+    prompt: 'Vyberte hlavní přínos popsaný ve výroku.',
     categories: { zakaznik: 'Přínos pro zákazníka', firma: 'Přínos pro firmu' },
     items: {
       poznam: { text: '„Poznám, od koho sluchátka pocházejí.“', why: 'Zákazník nabídku identifikuje: přínos pro zákazníka.' },
@@ -109,8 +109,8 @@ export default {
 
   'm06-doporuceni': {
     prompt: 'Zákazník v dotazníku uvede, že by KLID doporučil. Víme tím, že už značku skutečně někomu doporučil?',
-    thinkHint: 'Zkus si odpověď nejdřív promyslet. Pak si zobraz vysvětlení.',
-    reasoningLabel: 'Tvoje úvaha (nepovinné, nikam se neodesílá)',
+    thinkHint: 'Zkuste si odpověď nejdřív promyslet. Pak si zobrazte vysvětlení.',
+    reasoningLabel: 'Vaše úvaha (nepovinné, nikam se neodesílá)',
     revealLabel: 'Ukázat vysvětlení',
     explanation: '<strong>Ne.</strong> Známe jeho vyjádřenou ochotu. Skutečné chování bychom museli zjišťovat zvlášť.'
   },
@@ -152,7 +152,7 @@ export default {
       napadnou: { text: '„Jaké značky sluchátek tě napadnou?“', why: 'Otázka bez nápovědy zjišťuje spontánní vybavení.' },
       ovladani: { text: '„KLID si spojuji s jednoduchým ovládáním.“', why: 'Spojení značky s představou: asociace.' }
     },
-    explanation: 'Povědomí říká, zda značku znáš; asociace, co pro tebe znamená.'
+    explanation: 'Povědomí říká, zda zákazník značku zná; asociace, co pro něj znamená.'
   },
   'm06-z-loajalita': {
     prompt: '„Zákazník opakovaně kupuje KLID jen proto, že jiná značka není dostupná.“ Jaký je správný závěr?',

@@ -28,7 +28,7 @@ export function renderFinal(ch) {
       }
     }
     batchMsg.hidden = !missing;
-    batchMsg.textContent = missing === 1 ? 'Jedna úloha zatím není vyplněná. Doplň ji a vyhodnoť znovu.' : missing ? `Nevyplněné úlohy: ${missing}. Doplň je a vyhodnoť znovu.` : '';
+    batchMsg.textContent = missing === 1 ? 'Jedna úloha zatím není vyplněná. Doplňte ji a vyhodnoťte znovu.' : missing ? `Nevyplněné úlohy: ${missing}. Doplňte je a vyhodnoťte znovu.` : '';
     drawResults();
     if (!missing) results.querySelector('h3')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
@@ -66,7 +66,7 @@ export function renderFinal(ch) {
       const kind = !tried.length ? 'none' : ok === ids.length ? 'correct' : (ok > 0 || anyPartial) ? 'partial' : 'incorrect';
       return { a, status, kind };
     });
-    const label = { correct: 'Zvládnuto', partial: 'Částečně', incorrect: 'Vrať se k výkladu', none: 'Nevyzkoušeno', self: 'Sebekontrola' };
+    const label = { correct: 'Zvládnuto', partial: 'Částečně', incorrect: 'Vraťte se k výkladu', none: 'Nevyzkoušeno', self: 'Sebekontrola' };
     replace(results, 
       h('h3', {}, ui().results),
       h('p', { class: 'hint' }, ui().resultsNote),

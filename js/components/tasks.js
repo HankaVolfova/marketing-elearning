@@ -109,7 +109,7 @@ function classifyTask(id, def, txt, opts) {
       }));
     const row = h('div', { class: 'classify__row', role: 'group', 'aria-labelledby': fsId + '-l' },
       h('p', { class: 'classify__item', id: fsId + '-l', html: txt.items[itemId].text }),
-      multi ? h('p', { class: 'hint' }, 'Tady můžeš vybrat víc možností.') : null,
+      multi ? h('p', { class: 'hint' }, 'Tady můžete vybrat víc možností.') : null,
       seg, fb);
     rows[itemId] = { row, fb };
     form.append(row);
@@ -225,7 +225,7 @@ function choiceTask(id, def, txt, opts) {
         wrap.dataset.state = kind;
         fb.hidden = false;
         const label = def.multiple
-          ? (isCorrect ? (chosen ? 'Patří sem.' : 'Patří sem, ale nevybral/a jsi ji.') : 'Sem nepatří.')
+          ? (isCorrect ? (chosen ? 'Patří sem.' : 'Patří sem, ale nevybrali jste ji.') : 'Sem nepatří.')
           : (isCorrect ? ui().correct : ui().incorrect);
         replace(fb, verdict(kind === 'info' ? 'info' : kind, label), rich('p', txt.feedback?.[o] || ''));
       }
@@ -424,7 +424,7 @@ function dilemmaTask(id, def, txt, opts) {
     out.hidden = false;
     replace(out, 
       verdict('info', ui().dilemmaNote),
-      h('h5', {}, `Tvoje volba: ${txt.options[v].label}`),
+      h('h5', {}, `Vaše volba: ${txt.options[v].label}`),
       analysisTable(v),
       h('p', { class: 'defensible' }, txt.options[v].defensible),
       ...others.map((o) => h('details', { class: 'expand' }, h('summary', {}, `Pro srovnání: ${txt.options[o].label}`), analysisTable(o), h('p', { class: 'defensible' }, txt.options[o].defensible)))
@@ -480,12 +480,12 @@ function decideTask(id, def, txt, opts) {
       const more = h('div', { hidden: true }, rich('p', txt.explanation));
       const showBtn = h('button', { type: 'button', class: 'btn btn--link' }, 'Ukázat vysvětlení');
       showBtn.addEventListener('click', () => { more.hidden = false; showBtn.remove(); });
-      replace(out, verdict('incorrect', lead, { buddy: true }), h('p', {}, 'Klidně to zkus ještě jednou.'), showBtn, more);
+      replace(out, verdict('incorrect', lead, { buddy: true }), h('p', {}, 'Klidně to zkuste ještě jednou.'), showBtn, more);
     }
     if (fromUser) {
       store.setTask(id, { answer: o, result: res.result });
       opts.onChange?.();
-      announce(s.live, ok ? lead + ' ' + txt.explanation.replace(/<[^>]+>/g, '') : lead + ' Klidně to zkus ještě jednou.');
+      announce(s.live, ok ? lead + ' ' + txt.explanation.replace(/<[^>]+>/g, '') : lead + ' Klidně to zkuste ještě jednou.');
     }
   }
 
@@ -504,7 +504,7 @@ function revealTask(id, def, txt, opts) {
     out.hidden = false;
     btn.setAttribute('aria-expanded', 'true');
     replace(out, verdict('info', 'Vysvětlení'), rich('p', txt.explanation),
-      h('p', { class: 'hint' }, 'Porovnej s tím, co jsi vymyslel/a. Nemusí to být stejná slova, jde o stejný postup.'));
+      h('p', { class: 'hint' }, 'Porovnejte s tím, co jste vymysleli. Nemusí to být stejná slova, jde o stejný postup.'));
   };
   btn.addEventListener('click', () => {
     show();

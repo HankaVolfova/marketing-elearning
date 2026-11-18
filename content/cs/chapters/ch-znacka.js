@@ -6,7 +6,7 @@
 export default {
   id: 'ch-znacka',
   title: 'Značka v marketingové strategii',
-  headline: 'Logo poznáš. Ale čemu vlastně věříš?',
+  headline: 'Logo poznáte. Ale čemu vlastně věříte?',
   question: 'Co vytváří značku a proč může ovlivnit naši volbu?',
 
   intro: {
@@ -15,7 +15,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'KLID vyrábí sluchátka a chystá novou řadu pro studium a práci v hlučném prostředí. Technicky si s konkurencí nezadá, jenže zákazníci si název značky nepamatují a v obchodě sáhnou po té, kterou znají.',
-        'Na poradě zazní tři návrhy: navrhnout výraznější logo a nový obal, investovat do toho, aby název vidělo co nejvíc lidí, nebo ujasnit, co značka slibuje, a sladit s tím produkt, komunikaci i zákaznickou zkušenost. V kapitole uvidíš, co pomáhá značku poznat a co jí pomáhá věřit.'
+        'Na poradě zazní tři návrhy: navrhnout výraznější logo a nový obal, investovat do toho, aby název vidělo co nejvíc lidí, nebo ujasnit, co značka slibuje, a sladit s tím produkt, komunikaci i zákaznickou zkušenost. V kapitole uvidíte, co pomáhá značku poznat a co jí pomáhá věřit.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -68,7 +68,7 @@ export default {
     // ───────────────────────────── ČÁST 2
     {
       id: 'b2',
-      title: 'Podle čeho ji poznáš?',
+      title: 'Podle čeho ji poznáte?',
       short: 'Identifikátory značky',
       time: { main: 1.5 },
       steps: [
@@ -103,7 +103,7 @@ export default {
     // ───────────────────────────── ČÁST 3
     {
       id: 'b3',
-      title: 'Co se ti vybaví?',
+      title: 'Co se vám vybaví?',
       short: 'Povědomí, asociace, heuristika',
       time: { main: 2.5 },
       steps: [
@@ -215,7 +215,7 @@ export default {
 
   // Závěrečné procvičení
   final: {
-    intro: 'Nové krátké situace ze světa KLIDU ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace ze světa KLIDU ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m06-z-role', 'm06-z-identifikatory', 'm06-z-povedomi', 'm06-z-loajalita'],
     areas: [
       { id: 'role', label: 'Značka a její role', anchor: 'b1' },

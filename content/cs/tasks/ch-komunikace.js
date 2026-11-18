@@ -24,7 +24,7 @@ export default {
   },
 
   'm09-aida': {
-    prompt: 'Přiřaď hlavní funkci, kterou zde daná část sdělení plní.',
+    prompt: 'Přiřaďte hlavní funkci, kterou zde daná část sdělení plní.',
     categories: { a: 'Pozornost (Attention)', i: 'Zájem (Interest)', d: 'Touha (Desire)', act: 'Akce (Action)' },
     items: {
       stena: { text: '„Na stěnu poprvé? Začni s námi.“', why: 'Otázka má upoutat: pozornost.' },

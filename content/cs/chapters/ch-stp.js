@@ -15,7 +15,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'Krabička připravuje a rozváží obědy po městě. Chce oslovit všechny: studenty, zaměstnance kanceláří, rodiny i sportovce. Do nabídky proto přibývají další a další jídla.',
-        'Výsledek je ale opačný, než majitelé čekali. Menu je dlouhé, kuchyně nestíhá a zákazníkům není jasné, proč si vybrat právě Krabičku, když obědy rozváží i jiní. V kapitole uvidíš, jak trh rozdělit, koho si vybrat a jak se mu ukázat jako ta správná volba.'
+        'Výsledek je ale opačný, než majitelé čekali. Menu je dlouhé, kuchyně nestíhá a zákazníkům není jasné, proč si vybrat právě Krabičku, když obědy rozváží i jiní. V kapitole uvidíte, jak trh rozdělit, koho si vybrat a jak se mu ukázat jako ta správná volba.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -33,7 +33,7 @@ export default {
     // ───────────────────────────── ČÁST 1
     {
       id: 'b1',
-      title: 'Rozděl trh smysluplně',
+      title: 'Rozdělte trh smysluplně',
       short: 'Segmentace, segment, kritéria',
       time: { main: 2 },
       steps: [
@@ -127,7 +127,7 @@ export default {
     // ───────────────────────────── ČÁST 3
     {
       id: 'b3',
-      title: 'Vyber, koho obsloužíš',
+      title: 'Vyberte, koho obsloužíte',
       short: 'Targeting',
       time: { main: 2 },
       steps: [
@@ -175,7 +175,7 @@ export default {
     // ───────────────────────────── ČÁST 4
     {
       id: 'b4',
-      title: 'Získej místo v hlavě zákazníka',
+      title: 'Získejte místo v hlavě zákazníka',
       short: 'Positioning, USP a ESP, repositioning',
       time: { main: 3 },
       steps: [
@@ -241,7 +241,7 @@ export default {
     // ───────────────────────────── ČÁST 5
     {
       id: 'b5',
-      title: 'Slaď nabídku: 4P a 4C',
+      title: 'Slaďte nabídku: 4P a 4C',
       short: 'Marketingový mix, 4P, 4C',
       time: { main: 2 },
       steps: [
@@ -277,7 +277,7 @@ export default {
         },
         {
           id: 's5-nesoulad',
-          title: 'Najdi nesoulad',
+          title: 'Najděte nesoulad',
           body: [
             { t: 'mock', kind: 'memo', quotes: true, title: 'Nabídka Krabičky na webu', notes: [
               { label: 'Slib', text: 'Pohodlný pracovní oběd bez starostí.' },
@@ -309,7 +309,7 @@ export default {
 
   // Závěrečné procvičení
   final: {
-    intro: 'Nové krátké situace z Krabičky ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace z Krabičky ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m04-z-kriterium', 'm04-z-pouzitelnost', 'm04-z-targeting', 'm04-z-positioning', 'm04-z-4c'],
     areas: [
       { id: 'segmentace', label: 'Segmentace', anchor: 'b1' },

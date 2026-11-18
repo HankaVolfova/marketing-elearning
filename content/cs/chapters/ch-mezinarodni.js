@@ -15,7 +15,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'ROSTO prodává domácí pěstitelské sady pro malé byty: nádobu, substrát, semínka a návod. Doma se mu daří. Teď se ozval zahraniční obchodník, který by sady rád nabízel u sebe.',
-        'Tým chce příležitost rychle využít. Jeden návrh zní přeložit web a přepočítat domácí cenu kurzem, druhý naopak všechno změnit, protože jde o zahraničí. Třetí chce nejdřív ověřit zákazníky, podmínky trhu a možnosti obsluhy. V kapitole uvidíš, co může cestovat beze změny a co je potřeba přizpůsobit.'
+        'Tým chce příležitost rychle využít. Jeden návrh zní přeložit web a přepočítat domácí cenu kurzem, druhý naopak všechno změnit, protože jde o zahraničí. Třetí chce nejdřív ověřit zákazníky, podmínky trhu a možnosti obsluhy. V kapitole uvidíte, co může cestovat beze změny a co je potřeba přizpůsobit.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -235,7 +235,7 @@ export default {
         },
         {
           id: 's5-kanal',
-          title: 'Kanál vybírej podle zákazníků',
+          title: 'Kanál vybírejte podle zákazníků',
           body: [
             { t: 'p', html: 'Komunikační kanál vybíráme podle dostupnosti, používání a důvěry cílové skupiny. Domácí zkušenost nemusí na novém trhu stačit.' }
           ],
@@ -248,7 +248,7 @@ export default {
           ]
         }
       ],
-      summary: 'Zachovej důvěryhodný význam značky a ověř místní porozumění i vhodnost kanálů. Původ nabídky může různé zákazníky ovlivňovat různě.'
+      summary: 'Zachovejte důvěryhodný význam značky a ověřte místní porozumění i vhodnost kanálů. Původ nabídky může různé zákazníky ovlivňovat různě.'
     }
   ],
 
@@ -264,7 +264,7 @@ export default {
   },
 
   final: {
-    intro: 'Nové krátké situace z ROSTA ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace z ROSTA ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m12-z-trh', 'm12-z-sa', 'm12-z-cena', 'm12-z-vstup', 'm12-z-komunikace'],
     areas: [
       { id: 'trh', label: 'Poznání trhu', anchor: 'b1' },

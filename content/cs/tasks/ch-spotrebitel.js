@@ -112,7 +112,7 @@ export default {
     prompt: 'Může druhá situace změnit význam dostupnosti, času a ochoty porovnávat?',
     options: { ano: 'Ano', ne: 'Ne' },
     correctLead: 'Přesně.',
-    wrongLead: 'Zkus si představit sebe cestou na závod.',
+    wrongLead: 'Zkuste si představit sebe cestou na závod.',
     explanation: '<strong>Ano.</strong> Časový tlak a okamžitá potřeba mohou změnit priority. Stejný člověk se může v různých situacích rozhodovat odlišně.'
   },
 
@@ -168,7 +168,7 @@ export default {
   },
 
   'm10-heuristiky': {
-    prompt: 'Přiřaď ke zkratce její hlavní omezení.',
+    prompt: 'Přiřaďte ke zkratce její hlavní omezení.',
     categories: {
       cena: 'Cena sama kvalitu ani vhodnost neprokazuje.',
       znamost: 'Známost usnadní orientaci, ale nenahradí posouzení vhodnosti.',
@@ -210,7 +210,7 @@ export default {
     prompt: '„Ten, kdo boty zaplatil, je vždy používá.“ Platí to?',
     options: { ano: 'Ano', ne: 'Ne' },
     correctLead: 'Správně.',
-    wrongLead: 'Vzpomeň si na Robinův dárek.',
+    wrongLead: 'Vzpomeňte si na Robinův dárek.',
     explanation: '<strong>Ne.</strong> Kupující a uživatel nemusí být stejná osoba.'
   },
   'm10-z-hodnota': {

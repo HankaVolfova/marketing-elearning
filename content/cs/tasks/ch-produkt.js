@@ -44,7 +44,7 @@ export default {
     prompt: 'Která varianta podle uvedených vlastností lépe odpovídá pohodlnému používání při dojíždění?',
     options: { a: 'Varianta A', b: 'Varianta B' },
     feedback: {
-      a: 'Výrazný vzhled může zaujmout, ale při dojíždění obvykle máš volnou jen jednu ruku a čištění je každodenní starost.',
+      a: 'Výrazný vzhled může zaujmout, ale při dojíždění má člověk obvykle volnou jen jednu ruku a čištění je každodenní starost.',
       b: 'Ano. Jednoduché ovládání a čištění přinášejí v této situaci praktický přínos.'
     },
     explanation: 'Rozhodujeme podle konkrétní situace použití. Jednoduché ovládání a čištění přinášejí zákazníkovi praktický přínos. Pro jinou situaci nebo jiné zákazníky může být výrazný design důležitější.'
@@ -168,7 +168,7 @@ export default {
       stabilni: { text: 'Prodej je delší dobu vysoký, ale už výrazně neroste.', why: 'Růst zpomalil, prodej se stabilizoval: zralost.' },
       klesa: { text: 'Prodej několik období klesá a zákazníci přecházejí na jiná řešení.', why: 'Dlouhodobý pokles: úpadek.' }
     },
-    explanation: 'Fázi poznáš podle vývoje prodeje v delším čase, ne podle jednoho údaje.'
+    explanation: 'Fázi poznáte podle vývoje prodeje v delším čase, ne podle jednoho údaje.'
   },
 
   'm05-zralost': {

@@ -40,7 +40,7 @@ export default {
   },
 
   'm07-naklady': {
-    prompt: 'Fixní, nebo variabilní náklady? Rozhoduj podle popsaného chování nákladu.',
+    prompt: 'Fixní, nebo variabilní náklady? Rozhodujte podle popsaného chování nákladu.',
     categories: { fixni: 'Fixní', variabilni: 'Variabilní' },
     items: {
       najem: { text: 'Sjednaný měsíční nájem dílny při stejné kapacitě.', why: 'Platí se stejně, ať ZÁŘ vyrobí 10, nebo 100 lamp: fixní.' },
@@ -67,7 +67,7 @@ export default {
     prompt: 'Kalkulované náklady na lampu činí 700 Kč. ZÁŘ přidá přirážku 20 % z těchto nákladů. Jaká bude cena?',
     options: { '770': '770 Kč', '840': '840 Kč', '875': '875 Kč' },
     feedback: {
-      '770': '770 Kč by odpovídalo přirážce 10 %. Spočítej 20 % ze 700 Kč.',
+      '770': '770 Kč by odpovídalo přirážce 10 %. Spočítejte 20 % ze 700 Kč.',
       '840': 'Ano. 700 × 0,20 = 140 Kč; 700 + 140 = 840 Kč.',
       '875': 'Takto by vyšla cena s marží 20 % z prodejní ceny (700 ÷ 0,8). My počítáme přirážku z nákladů.'
     },

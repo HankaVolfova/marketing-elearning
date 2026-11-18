@@ -19,7 +19,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'VENKU vyrábí vybavení na turistiku ve čtyřech produktových řadách: batohy, stany, spacáky a trekové hole. Na rozvoj má příští rok k dispozici 5 milionů korun.',
-        'Vedoucí řad ale žádají dohromady 9,5 milionu a každý má pro svou řadu dobré argumenty. Vyhovět všem nejde. V kapitole uvidíš, jak jednotlivé části nabídky porovnat a podle čeho rozhodnout, kam peníze dát.'
+        'Vedoucí řad ale žádají dohromady 9,5 milionu a každý má pro svou řadu dobré argumenty. Vyhovět všem nejde. V kapitole uvidíte, jak jednotlivé části nabídky porovnat a podle čeho rozhodnout, kam peníze dát.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -267,7 +267,7 @@ export default {
   },
 
   final: {
-    intro: 'Nové krátké situace z VENKU ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace z VENKU ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m11-z-sbu', 'm11-z-barva', 'm11-z-podil', 'm11-z-vlastni', 'm11-z-kvadranty', 'm11-z-pes', 'm11-z-ge', 'm11-z-vahy'],
     areas: [
       { id: 'sbu', label: 'Portfolio a SBU', anchor: 'b1' },

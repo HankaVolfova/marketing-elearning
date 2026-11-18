@@ -17,7 +17,7 @@ export default {
       title: 'Příběh kapitoly',
       body: [
         'ZÁŘ prodává designovou stolní lampu za 1 000 Kč. Prodej je stabilní, ale tým chce růst. Navrhuje slevu na 900 Kč: „Prodáme víc lamp, a tak víc vyděláme.“',
-        'Vedoucí výroby návrh zastaví otázkou, kolik firmě z každé lampy po slevě zbude a kolik kusů navíc by musela prodat, aby na tom nebyla hůř. Na odpověď nikdo z porady nemá číslo. V kapitole uvidíš, co všechno se skrývá za cenovkou a jak cenu nastavit, aby dávala smysl zákazníkovi i firmě.'
+        'Vedoucí výroby návrh zastaví otázkou, kolik firmě z každé lampy po slevě zbude a kolik kusů navíc by musela prodat, aby na tom nebyla hůř. Na odpověď nikdo z porady nemá číslo. V kapitole uvidíte, co všechno se skrývá za cenovkou a jak cenu nastavit, aby dávala smysl zákazníkovi i firmě.'
       ]
     },
     // Výstupy učení se studentům nezobrazují; podklad pro skripta.
@@ -185,18 +185,18 @@ export default {
               { kicker: 'Postavení: dlouhodobě výš', term: 'premiova_cena', id: 'k-premiova', title: 'Prémiová cena', text: 'Dlouhodobě vyšší cenová úroveň podporující výjimečnou hodnotu a pozici nabídky.' },
               { kicker: 'Postavení: dlouhodobě dostupně', term: 'ekonomicka_cena', id: 'k-ekonomicka', title: 'Ekonomická cena', text: 'Dlouhodobě dostupná cenová úroveň podpořená úsporným řešením nabídky a nákladů.' }
             ] },
-            { t: 'note', html: '<strong>Nepleť si sbírání smetany s prémiovou cenou.</strong> Obě začínají vysoko, ale sbírání smetany cenu plánovaně snižuje, kdežto prémiová cena zůstává vysoko dlouhodobě.' }
+            { t: 'note', html: '<strong>Nepleťte si sbírání smetany s prémiovou cenou.</strong> Obě začínají vysoko, ale sbírání smetany cenu plánovaně snižuje, kdežto prémiová cena zůstává vysoko dlouhodobě.' }
           ],
           tasks: ['m07-strategie'],
           more: [
             { t: 'p', html: '<strong>Podmínky a rizika.</strong> Sbírání smetany předpokládá zákazníky, kteří chtějí novinku mezi prvními a jsou ochotni zaplatit víc; riziko je, že vysoká cena přiláká konkurenci. Cenové pronikání vyžaduje schopnost vyrábět a prodávat ve velkém a vydržet období s nízkým výsledkem na kus; riziko je, že zákazníci si na nízkou cenu zvyknou. Prémiová cena potřebuje hodnotu, kterou zákazníci skutečně vnímají. Ekonomická cena potřebuje trvale úsporný provoz.' },
             { t: 'p', html: '<strong>Reakce konkurence a cenová válka.</strong> Když firma výrazně sníží cenu, konkurenti mohou odpovědět stejně. Postupné vzájemné snižování cen (cenová válka) může poškodit výsledek všech zúčastněných a zákazníci si začnou všímat hlavně ceny.' },
             { t: 'p', html: '<strong>Prémiová cena a akce.</strong> Firmy s prémiovou cenou slevy obvykle používají opatrně, aby nenarušily vnímanou hodnotu. Neznamená to, že se cenová akce nesmí objevit nikdy.' },
-            { t: 'p', html: '<strong>Cenové pronikání × tržní penetrace.</strong> Nepleť si cenové pronikání (nízká vstupní cena) s [[trzni_penetrace|tržní penetrací]] z Ansoffovy matice v kapitole 2, která znamená zvyšování prodeje stávajících produktů na stávajícím trhu.' }
+            { t: 'p', html: '<strong>Cenové pronikání × tržní penetrace.</strong> Nepleťte si cenové pronikání (nízká vstupní cena) s [[trzni_penetrace|tržní penetrací]] z Ansoffovy matice v kapitole 2, která znamená zvyšování prodeje stávajících produktů na stávajícím trhu.' }
           ]
         }
       ],
-      summary: 'Cenová strategie musí odpovídat nabídce, cílovým zákazníkům a možnostem firmy. Rozlišuj vstupní cenovou cestu a dlouhodobé cenové postavení.'
+      summary: 'Cenová strategie musí odpovídat nabídce, cílovým zákazníkům a možnostem firmy. Rozlišujte vstupní cenovou cestu a dlouhodobé cenové postavení.'
     },
 
     // ───────────────────────────── ČÁST 5
@@ -241,7 +241,7 @@ export default {
           ]
         }
       ],
-      summary: 'Sleva ubírá z toho, co firmě z každého kusu zbývá, a stejný zisk pak vyžaduje mnohem vyšší prodej. Slevu proto posuzuj podle výsledku, ne jen podle růstu prodeje. Cenové prezentace mohou ovlivnit vnímání, ale nenahrazují skutečnou hodnotu nabídky.'
+      summary: 'Sleva ubírá z toho, co firmě z každého kusu zbývá, a stejný zisk pak vyžaduje mnohem vyšší prodej. Slevu proto posuzujte podle výsledku, ne jen podle růstu prodeje. Cenové prezentace mohou ovlivnit vnímání, ale nenahrazují skutečnou hodnotu nabídky.'
     }
   ],
 
@@ -259,7 +259,7 @@ export default {
 
   // Závěrečné procvičení
   final: {
-    intro: 'Nové krátké situace ze světa ZÁŘE ze všech pěti částí. Výsledky uvidíš podle oblastí, s odkazem tam, kde je téma vysvětlené.',
+    intro: 'Nové krátké situace ze světa ZÁŘE ze všech pěti částí. Výsledky uvidíte podle oblastí, s odkazem tam, kde je téma vysvětlené.',
     tasks: ['m07-z-trzby', 'm07-z-naklady', 'm07-z-metoda', 'm07-z-strategie', 'm07-z-sleva'],
     areas: [
       { id: 'vysledek', label: 'Cena a ekonomický výsledek', anchor: 'b1' },

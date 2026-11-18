@@ -5,11 +5,11 @@ export default {
   subtitle: 'Základní teoretický rámec pro všechny obory',
   kicker: 'E-learning · Škoda Auto Vysoká škola',
   tagline: 'Proč si lidé vyberou právě tohle?',
-  intro: 'Dvanáct krátkých kapitol, v každé jeden příběh firmy. Teorii pochopíš na příkladu, hned si ji vyzkoušíš a na konci zjistíš, co už umíš.',
+  intro: 'Dvanáct krátkých kapitol, v každé jeden příběh firmy. Teorii pochopíte na příkladu, hned si ji vyzkoušíte a na konci zjistíte, co už umíte.',
   facts: ['12 kapitol', 'asi 10 minut každá', 'myšlenkové mapy', 'vzorový test'],
   note: {
     greeting: 'Ahoj!',
-    text: 'Vítej v e-learningu Marketing. Přeju ti, ať tě to baví. A když ti něco nebude dávat smysl, nebo tě napadne, co vylepšit, ozvi se mi. Zpětnou vazbu moc uvítám.',
+    text: 'Vítejte v e-learningu Marketing. Přeju vám, ať vás to baví. A když vám něco nebude dávat smysl, nebo vás napadne, co vylepšit, ozvěte se mi. Zpětnou vazbu moc uvítám.',
     signature: 'Hanka Volfová'
   },
   startLabel: 'Začít první kapitolou',

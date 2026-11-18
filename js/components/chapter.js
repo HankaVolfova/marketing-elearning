@@ -53,7 +53,7 @@ function renderNav(chapterId, sections) {
   const bar = h('span', { class: 'nav-progress__bar', 'aria-hidden': 'true' }, h('span', {}));
   const drawCheer = () => {
     const n = L().chapters[chapterId].blocks.filter((b) => (store.get().seen[chapterId] || {})[b.id]).length;
-    cheer.textContent = n === 0 ? 'Začínáš. Pět krátkých částí.' : n === total ? 'Všech pět částí máš za sebou. Super!' : `Máš za sebou ${n} z ${total} částí.`;
+    cheer.textContent = n === 0 ? 'Začínáte. Pět krátkých částí.' : n === total ? 'Všech pět částí máte za sebou. Super!' : `Máte za sebou ${n} z ${total} částí.`;
     bar.firstChild.style.width = `${(n / total) * 100}%`;
   };
   drawCheer();
@@ -101,7 +101,7 @@ function renderIntro(ch, meta, chapterId) {
       h('h2', { class: 'scenario__title' }, ch.intro.scenario.title),
       ch.intro.scenario.body.map((p) => h('p', {}, p)),
       ch.intro.scenario.taskId ? renderTask(ch.intro.scenario.taskId) : null,
-      ch.intro.scenario.taskId ? h('p', { class: 'hint' }, 'Ke své volbě se vrátíš na konci kapitoly.') : null),
+      ch.intro.scenario.taskId ? h('p', { class: 'hint' }, 'Ke své volbě se vrátíte na konci kapitoly.') : null),
 
     h('div', { class: 'intro-grid' },
       h('div', { class: 'blocks-overview' },
@@ -201,7 +201,7 @@ function renderNode(n, chapterId) {
     case 'conceptNav': return renderConceptNav(chapterId);
     case 'conceptTable': return renderConceptTable(chapterId, n.id);
     case 'dontmix': return h('div', { class: 'dontmix', id: n.id, tabindex: '-1' },
-      h('p', { class: 'dontmix__title' }, h('span', { class: 'tag tag--warn' }, 'Nepleť si'), ' ', h('strong', {}, `${n.a} × ${n.b}`)),
+      h('p', { class: 'dontmix__title' }, h('span', { class: 'tag tag--warn' }, 'Nepleťte si'), ' ', h('strong', {}, `${n.a} × ${n.b}`)),
       rich('p', n.html));
     case 'dontmixList': return h('div', { class: 'dontmix-list', id: n.id },
       h('h3', {}, n.title),
@@ -285,7 +285,7 @@ function renderConceptTable(chapterId, id) {
 // ───────── Easter egg: hrnek
 function renderEgg() {
   const tipId = nextId('egg');
-  const tip = h('p', { class: 'egg__tip', id: tipId, role: 'note', hidden: true }, 'Káva pomáhá. Rozdíl mezi výrobní a výrobkovou za tebe ale nevysvětlí.');
+  const tip = h('p', { class: 'egg__tip', id: tipId, role: 'note', hidden: true }, 'Káva pomáhá. Rozdíl mezi výrobní a výrobkovou za vás ale nevysvětlí.');
   const btn = h('button', { type: 'button', class: 'egg__btn', 'aria-expanded': 'false', 'aria-controls': tipId, 'aria-label': ui().mugLabel }, svg(mug));
   const toggle = (open) => { tip.hidden = !open; btn.setAttribute('aria-expanded', String(open)); };
   btn.addEventListener('click', () => toggle(tip.hidden));
@@ -322,7 +322,7 @@ function renderClosing(ch) {
         choice && c.options[choice] ? [h('strong', {}, c.yourChoice + ' '), c.options[choice].label] : c.noChoice),
       h('ul', { class: 'closing__list' }, Object.entries(c.options).map(([k, o]) => h('li', { class: k === choice ? 'is-chosen' : '' },
         h('p', { class: 'closing__opt' }, h('strong', {}, o.label), o.concept ? h('span', { class: 'closing__concept' }, ` → ${o.concept}`) : null),
-        k === choice ? h('p', { class: 'sr-only' }, 'Tvoje volba.') : null,
+        k === choice ? h('p', { class: 'sr-only' }, 'Vaše volba.') : null,
         h('p', {}, o.text)))));
   };
   draw();

@@ -5,7 +5,7 @@ export default {
 
   // ───── Část 1
   'm03-mikro-makro': {
-    prompt: 'Mikroprostředí, nebo makroprostředí? Zařaď poznámky kavárny Za rohem.',
+    prompt: 'Mikroprostředí, nebo makroprostředí? Zařaďte poznámky kavárny Za rohem.',
     categories: { mikro: 'Mikroprostředí', makro: 'Makroprostředí' },
     items: {
       obsluha: { text: 'Zaškolení nové obsluhy.', why: 'Jak zaškolí své lidi, rozhoduje kavárna sama: mikroprostředí.' },
@@ -72,12 +72,12 @@ export default {
       prazirna: { text: 'Kavárna je závislá na jediné pražírně, která jí dodává výběrovou kávu.', why: 'Náhradu za tuto kávu nelze snadno sehnat, pražírna proto může snadněji prosadit své podmínky: vyjednávací síla dodavatelů.' },
       kancelar: { text: 'Firma ze sousedství objednává denně kávu pro celou kancelář a vyjednává množstevní slevu.', why: 'Velký objem objednávek dává zákazníkovi silnější vyjednávací pozici: vyjednávací síla odběratelů.' }
     },
-    explanation: 'U dodavatelů i odběratelů sleduj <strong>závislost</strong>: kdo koho víc potřebuje a jak snadno může přejít jinam.'
+    explanation: 'U dodavatelů i odběratelů sledujte <strong>závislost</strong>: kdo koho víc potřebuje a jak snadno může přejít jinam.'
   },
 
   // ───── Část 3
   'm03-swot': {
-    prompt: 'Zařaď zjištění kavárny Za rohem do SWOT.',
+    prompt: 'Zařaďte zjištění kavárny Za rohem do SWOT.',
     categories: { s: 'S · Silná stránka', w: 'W · Slabá stránka', o: 'O · Příležitost', t: 'T · Hrozba' },
     items: {
       baristi: { text: 'Zkušení baristé, které hosté znají jménem.', why: 'Schopnost firmy, která jí pomáhá: silná stránka.' },
@@ -85,7 +85,7 @@ export default {
       fakulta: { text: 'Ve vedlejší ulici se otevírá nová fakulta, kolem kavárny budou denně chodit stovky studentů.', why: 'Víc lidí v okolí znamená víc potenciálních hostů. Okolnost v okolí, kterou může kavárna využít: příležitost.' },
       konkurent: { text: 'Do čtvrti vstupuje řetězec Kafe & Go.', why: 'Nepříznivá okolnost v okolí: hrozba.' }
     },
-    explanation: 'Nejdřív se zeptej: <strong>popisuje položka firmu, nebo její okolí?</strong> Potom: pomáhá, nebo omezuje?'
+    explanation: 'Nejdřív se zeptejte: <strong>popisuje položka firmu, nebo její okolí?</strong> Potom: pomáhá, nebo omezuje?'
   },
 
   'm03-prilezitost': {
@@ -200,7 +200,7 @@ export default {
     explanation: 'Substitut uspokojuje stejnou potřebu jiným způsobem.'
   },
   'm03-z-swot': {
-    prompt: 'Zařaď zjištění jazykové školy do SWOT.',
+    prompt: 'Zařaďte zjištění jazykové školy do SWOT.',
     categories: { s: 'S · Silná stránka', w: 'W · Slabá stránka', o: 'O · Příležitost', t: 'T · Hrozba' },
     items: {
       lektori: { text: 'Zkušený tým lektorů.', why: 'Schopnost školy: silná stránka.' },

@@ -52,12 +52,12 @@ function renderQuestion(item, n) {
     };
   } else {
     const id = nextId('sta');
-    const ta = h('textarea', { id, class: 'textarea', rows: 5, placeholder: 'Napiš odpověď vlastními slovy…' });
+    const ta = h('textarea', { id, class: 'textarea', rows: 5, placeholder: 'Napište odpověď vlastními slovy…' });
     const model = h('div', { class: 'stest__model', hidden: true },
       h('p', { class: 'stest__model-h' }, 'Vzorová odpověď'),
       h('p', {}, q.model),
-      h('p', { class: 'stest__model-hint' }, 'Porovnej: obsahuje tvoje odpověď hlavní body? Na přesném znění nezáleží.'));
-    el.append(h('label', { for: id, class: 'sr-only' }, 'Tvoje odpověď'), ta, model);
+      h('p', { class: 'stest__model-hint' }, 'Porovnejte: obsahuje vaše odpověď hlavní body? Na přesném znění nezáleží.'));
+    el.append(h('label', { for: id, class: 'sr-only' }, 'Vaše odpověď'), ta, model);
     item.evaluate = () => {
       model.hidden = false;
       ta.readOnly = true;
@@ -86,7 +86,7 @@ export function renderSampleTest() {
       replace(summary,
         h('p', { class: 'stest__summary-h' }, 'Výsledek'),
         h('p', {}, `Uzavřené otázky: ${ok} z ${closed.length} správně (${ok * 5} z ${closed.length * 5} bodů).`),
-        open ? h('p', {}, `Otevřené otázky (${open}): porovnej svoje odpovědi se vzorem u každé otázky. V ostrém testu je hodnotí zkoušející.`) : null);
+        open ? h('p', {}, `Otevřené otázky (${open}): porovnejte svoje odpovědi se vzorem u každé otázky. V ostrém testu je hodnotí zkoušející.`) : null);
       summary.scrollIntoView({ block: 'center' });
       summary.focus({ preventScroll: true });
     });
@@ -97,7 +97,7 @@ export function renderSampleTest() {
       h('header', { class: 'stest__head' },
         h('p', { class: 'kicker' }, 'Příprava na zkoušku'),
         h('h1', { tabindex: '-1' }, 'Vzorový test'),
-        h('p', { class: 'lead' }, 'Test má 8 otázek po 5 bodech: z každého tématu jedna, z tématu Produkt a značka dvě. Pokaždé se namíchá nová sada. Uzavřené otázky se vyhodnotí automaticky. U otevřených napiš odpověď a po vyhodnocení ji porovnej se vzorem.'),
+        h('p', { class: 'lead' }, 'Test má 8 otázek po 5 bodech: z každého tématu jedna, z tématu Produkt a značka dvě. Pokaždé se namíchá nová sada. Uzavřené otázky se vyhodnotí automaticky. U otevřených napište odpověď a po vyhodnocení ji porovnejte se vzorem.'),
         h('p', {}, newTop)),
       list,
       h('div', { class: 'stest__actions' }, evalBtn),

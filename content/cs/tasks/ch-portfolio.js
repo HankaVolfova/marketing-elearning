@@ -77,14 +77,14 @@ export default {
     prompt: 'Potřebuje VENKU před rozhodnutím o řadě trekových holí víc informací než jen označení pes?',
     options: { ano: 'Ano', ne: 'Ne' },
     correctLead: 'Správně.',
-    wrongLead: 'Podívej se na doplňující informace o řadě.',
+    wrongLead: 'Podívejte se na doplňující informace o řadě.',
     explanation: '<strong>Ano.</strong> Firma musí posoudit i její skutečný přínos a vazby v portfoliu. Kvadrant není automatický příkaz k ukončení.'
   },
   'm11-trh': {
     prompt: 'VENKU spočítá svůj prodej turistických batohů proti prodeji všech druhů zavazadel jednoho konkurenta. Může takové porovnání zkreslit obraz pozice na trhu turistických batohů?',
     options: { ano: 'Ano', ne: 'Ne' },
     correctLead: 'Správně.',
-    wrongLead: 'Porovnáváš batohy s kufry, taškami a dalšími zavazadly.',
+    wrongLead: 'Porovnáváte batohy s kufry, taškami a dalšími zavazadly.',
     explanation: '<strong>Ano.</strong> Čitatel a jmenovatel musí odpovídat stejnému vymezenému trhu. Jinak může výsledek vytvářet zavádějící obraz pozice.'
   },
 
@@ -155,11 +155,11 @@ export default {
     prompt: '„Růst vlastního prodeje o 20 % automaticky znamená růst trhu o 20 %.“ Platí to?',
     options: { ano: 'Ano', ne: 'Ne' },
     correctLead: 'Správně.',
-    wrongLead: 'Vzpomeň si na stany: trh +15 %, VENKU +4 %.',
+    wrongLead: 'Vzpomeňte si na stany: trh +15 %, VENKU +4 %.',
     explanation: '<strong>Ne.</strong> Vlastní prodej může růst rychleji i pomaleji než celý trh.'
   },
   'm11-z-kvadranty': {
-    prompt: 'Při výukové hranici růstu 10 % zařaď jednotky do matice BCG.',
+    prompt: 'Při výukové hranici růstu 10 % zařaďte jednotky do matice BCG.',
     categories: { hvezda: 'Hvězda', krava: 'Dojná kráva', otaznik: 'Otazník', pes: 'Pes' },
     items: {
       a: { text: 'Relativní podíl 1,6; růst trhu 14 %.', why: 'Podíl nad 1, růst nad 10 %: hvězda.' },
@@ -173,11 +173,11 @@ export default {
     prompt: '„Jednotka zařazená mezi psy může být zisková.“ Platí to?',
     options: { ano: 'Ano', ne: 'Ne' },
     correctLead: 'Správně.',
-    wrongLead: 'Vzpomeň si na trekové hole.',
+    wrongLead: 'Vzpomeňte si na trekové hole.',
     explanation: '<strong>Ano.</strong> Ziskovost z tohoto zařazení přímo nevyplývá.'
   },
   'm11-z-ge': {
-    prompt: 'Přiřaď osu matice GE k jejímu významu.',
+    prompt: 'Přiřaďte osu matice GE k jejímu významu.',
     categories: { podminky: 'Hodnocení podmínek a perspektiv trhu', schopnost: 'Hodnocení schopnosti jednotky uspět vůči konkurenci' },
     items: {
       atraktivita: { text: 'Atraktivita trhu', why: 'Popisuje trh.' },
@@ -189,7 +189,7 @@ export default {
     prompt: '„Výsledek GE závisí na volbě kritérií a vah.“ Platí to?',
     options: { ano: 'Ano', ne: 'Ne' },
     correctLead: 'Správně.',
-    wrongLead: 'Zkus změnit váhu jednoho kritéria: skóre se změní.',
+    wrongLead: 'Zkuste změnit váhu jednoho kritéria: skóre se změní.',
     explanation: '<strong>Ano.</strong> Výsledek přímo závisí na zvolených kritériích, vahách i hodnocení; proto je musíme zdůvodnit.'
   },
 };
