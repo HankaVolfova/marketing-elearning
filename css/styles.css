@@ -1038,3 +1038,7 @@ a.ochapters__link:hover { border-color: var(--mint-200); transform: translateY(-
 .ochapters__seen { font-size: .8rem; font-weight: 700; color: var(--mid-emerald-text); }
 .ochapters .badge--extension { margin-left: 0; }
 @media (max-width: 420px) { .ochapters { grid-template-columns: 1fr; } .ochapters__link { grid-template-columns: 64px 1fr; } .ochapters__art { width: 64px; height: 56px; } }
+/* Přehled: na širokých monitorech držet úvod i kapitoly ve stejné šířce */
+.page--overview .ohero { max-width: 1180px; margin-left: auto; margin-right: auto; }
+.page--overview .ochapters, .page--overview .ochapters__title { max-width: 1180px; }
+.page--overview .ochapters { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
